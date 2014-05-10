@@ -1,5 +1,5 @@
 from flask import Flask
-#import newsAgg as N
+import newsAgg as N
 #import threading
 import os
 
@@ -20,5 +20,5 @@ def hello_world():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
-#    N.init()
+    N.init()
 #    newsInterval()
