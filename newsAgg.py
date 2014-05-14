@@ -9,15 +9,22 @@ def init():
   # define our feeds
   #########################################
   feeds = [
-    'http://www.engadget.com/rss-hd.xml',
-    'http://www.gizmodo.com/rss',
-    'http://feeds.boingboing.net/boingboing/iBag',
+    'http://feeds.feedburner.com/9To5Mac-MacAllDay',
+    'http://feeds.feedburner.com/techdirt',
+    'http://feeds.feedburner.com/TechCrunch',
     'http://feeds.feedburner.com/askTheAdmin',
-    'http://www.lifehacker.com/tag/rss',
-    'http://feeds.feedburner.com/techdirt/feed',
+    'http://feeds.feedburner.com/technobuffalo/rss',
+    'http://www.engadget.com/rss-hd.xml',
+    'http://www.daringfireball.net/feeds/main',
+    'http://www.macworld.com/news/index.rss',
+    'http://www.counternotions.com/feed/',
+    'http://feeds.boingboing.net/boingboing/iBag',
+    #'http://feeds.gawker.com/lifehacker/full',
+    'http://www.gizmodo.com/rss',
+    'http://www.recode.net/feed/',
+    'http://feeds.mashable.com/Mashable',
     'http://www.nytimes.com/services/xml/rss/index.html',
     'http://feeds.wired.com/wired/index',
-    'http://feeds.feedburner.com/TechCrunch/',
     'http://www.cnet.com/rss/news/',
     'http://feeds.arstechnica.com/arstechnica/index',
     'http://www.theverge.com/rss/index.xml'
