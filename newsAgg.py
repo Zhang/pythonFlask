@@ -32,11 +32,11 @@ def init():
   ]
 
   '''     
-      'http://feeds2.feedburner.com/time/topstories',
-      'http://rss.cnn.com/rss/cnn_topstories.rss',
-      'http://www.huffingtonpost.com/feeds/index.xml',
+      'http://fe//www.huffingtonpost.com/feeds/index.xml',
       'http://news.google.com/?output=rss',
-      'http://www.foxnews.com/about/rss/',
+      'hteds2.feedburner.com/time/topstories',
+      'http://rss.cnn.com/rss/cnn_topstories.rss',
+      'http:tp://www.foxnews.com/about/rss/',
       'http://www.cbsnews.com/news/cbs-news-rss-feeds/',
       'http://www.reuters.com/tools/rss',
       'http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',
