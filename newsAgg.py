@@ -256,4 +256,13 @@ def init():
   #                print "new", article["collectionID"]
   #            clusterCollection.insert(article)
   #    collectionID += 1
+
+  import pymongo
+  from pymongo import MongoClient
+
+  client = MongoClient('mongodb://sourcely:sourcely@oceanic.mongohq.com:10033/app25019458')
+  clusterDatabase = client['app25019458']
+  clusterCollection = clusterDatabase['clusterCollection']
+  # clusterCollection.remove({}), drops all documents from collection
+  clusterCollection.insert({"scott":"hello"})
   return
