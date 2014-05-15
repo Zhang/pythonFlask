@@ -15,6 +15,7 @@ def init():
     'http://feeds.feedburner.com/askTheAdmin',
     'http://feeds.feedburner.com/technobuffalo/rss',
     'http://www.engadget.com/rss-hd.xml',
+    'http://www.huffingtonpost.com/feeds/verticals/technology/index.xml',
     'http://www.daringfireball.net/feeds/main',
     'http://www.macworld.com/news/index.rss',
     'http://www.counternotions.com/feed/',
@@ -55,7 +56,7 @@ def init():
   import lxml.html as imgGrabber
   import re
   #for enabling cookies on redirects
-  from cookielib import CookieJar
+  #from cookielib import CookieJar
 
   corpus = []
   titles=[]
@@ -207,8 +208,9 @@ def init():
 
   #inserting into mongo collection
 
-  cj = CookieJar()
-  opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
+  #Cookie jar fixes redirect errors
+  #cj = CookieJar()
+  #opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
 
   for key in clusters:
      print "============================================="     
